@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EA7AD9163C3F4E006F576A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EA7AD8163C3F4E006F576A /* UIKit.framework */; };
+		C4EA7ADB163C3F4E006F576A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EA7ADA163C3F4E006F576A /* Foundation.framework */; };
+		C4EA7ADD163C3F4E006F576A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EA7ADC163C3F4E006F576A /* CoreGraphics.framework */; };
+		C4EA7AE3163C3F4E006F576A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4EA7AE1163C3F4E006F576A /* InfoPlist.strings */; };
+		C4EA7AE5163C3F4E006F576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA7AE4163C3F4E006F576A /* main.m */; };
+		C4EA7AE9163C3F4E006F576A /* BFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA7AE8163C3F4E006F576A /* BFAppDelegate.m */; };
+		C4EA7AEB163C3F4E006F576A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EA7AEA163C3F4E006F576A /* Default.png */; };
+		C4EA7AED163C3F4E006F576A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EA7AEC163C3F4E006F576A /* Default@2x.png */; };
+		C4EA7AEF163C3F4E006F576A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EA7AEE163C3F4E006F576A /* Default-568h@2x.png */; };
+		C4EA7AF2163C3F4E006F576A /* BFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA7AF1163C3F4E006F576A /* BFViewController.m */; };
+		C4EA7AF5163C3F4E006F576A /* BFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EA7AF3163C3F4E006F576A /* BFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4EA7AD4163C3F4E006F576A /* objectiveC Tutorial3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objectiveC Tutorial3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA7AD8163C3F4E006F576A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4EA7ADA163C3F4E006F576A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4EA7ADC163C3F4E006F576A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4EA7AE0163C3F4E006F576A /* objectiveC Tutorial3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objectiveC Tutorial3-Info.plist"; sourceTree = "<group>"; };
+		C4EA7AE2163C3F4E006F576A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4EA7AE4163C3F4E006F576A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4EA7AE6163C3F4E006F576A /* objectiveC Tutorial3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objectiveC Tutorial3-Prefix.pch"; sourceTree = "<group>"; };
+		C4EA7AE7163C3F4E006F576A /* BFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppDelegate.h; sourceTree = "<group>"; };
+		C4EA7AE8163C3F4E006F576A /* BFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppDelegate.m; sourceTree = "<group>"; };
+		C4EA7AEA163C3F4E006F576A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4EA7AEC163C3F4E006F576A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C4EA7AEE163C3F4E006F576A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C4EA7AF0163C3F4E006F576A /* BFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFViewController.h; sourceTree = "<group>"; };
+		C4EA7AF1163C3F4E006F576A /* BFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFViewController.m; sourceTree = "<group>"; };
+		C4EA7AF4163C3F4E006F576A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EA7AD1163C3F4E006F576A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EA7AD9163C3F4E006F576A /* UIKit.framework in Frameworks */,
+				C4EA7ADB163C3F4E006F576A /* Foundation.framework in Frameworks */,
+				C4EA7ADD163C3F4E006F576A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EA7AC9163C3F4E006F576A = {
+			isa = PBXGroup;
+			children = (
+				C4EA7ADE163C3F4E006F576A /* objectiveC Tutorial3 */,
+				C4EA7AD7163C3F4E006F576A /* Frameworks */,
+				C4EA7AD5163C3F4E006F576A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EA7AD5163C3F4E006F576A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA7AD4163C3F4E006F576A /* objectiveC Tutorial3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EA7AD7163C3F4E006F576A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA7AD8163C3F4E006F576A /* UIKit.framework */,
+				C4EA7ADA163C3F4E006F576A /* Foundation.framework */,
+				C4EA7ADC163C3F4E006F576A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4EA7ADE163C3F4E006F576A /* objectiveC Tutorial3 */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA7AE7163C3F4E006F576A /* BFAppDelegate.h */,
+				C4EA7AE8163C3F4E006F576A /* BFAppDelegate.m */,
+				C4EA7AF0163C3F4E006F576A /* BFViewController.h */,
+				C4EA7AF1163C3F4E006F576A /* BFViewController.m */,
+				C4EA7AF3163C3F4E006F576A /* BFViewController.xib */,
+				C4EA7ADF163C3F4E006F576A /* Supporting Files */,
+			);
+			path = "objectiveC Tutorial3";
+			sourceTree = "<group>";
+		};
+		C4EA7ADF163C3F4E006F576A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA7AE0163C3F4E006F576A /* objectiveC Tutorial3-Info.plist */,
+				C4EA7AE1163C3F4E006F576A /* InfoPlist.strings */,
+				C4EA7AE4163C3F4E006F576A /* main.m */,
+				C4EA7AE6163C3F4E006F576A /* objectiveC Tutorial3-Prefix.pch */,
+				C4EA7AEA163C3F4E006F576A /* Default.png */,
+				C4EA7AEC163C3F4E006F576A /* Default@2x.png */,
+				C4EA7AEE163C3F4E006F576A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EA7AD3163C3F4E006F576A /* objectiveC Tutorial3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EA7AF8163C3F4E006F576A /* Build configuration list for PBXNativeTarget "objectiveC Tutorial3" */;
+			buildPhases = (
+				C4EA7AD0163C3F4E006F576A /* Sources */,
+				C4EA7AD1163C3F4E006F576A /* Frameworks */,
+				C4EA7AD2163C3F4E006F576A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objectiveC Tutorial3";
+			productName = "objectiveC Tutorial3";
+			productReference = C4EA7AD4163C3F4E006F576A /* objectiveC Tutorial3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EA7ACB163C3F4E006F576A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Eliot Arntz";
+			};
+			buildConfigurationList = C4EA7ACE163C3F4E006F576A /* Build configuration list for PBXProject "objectiveC Tutorial3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4EA7AC9163C3F4E006F576A;
+			productRefGroup = C4EA7AD5163C3F4E006F576A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EA7AD3163C3F4E006F576A /* objectiveC Tutorial3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EA7AD2163C3F4E006F576A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EA7AE3163C3F4E006F576A /* InfoPlist.strings in Resources */,
+				C4EA7AEB163C3F4E006F576A /* Default.png in Resources */,
+				C4EA7AED163C3F4E006F576A /* Default@2x.png in Resources */,
+				C4EA7AEF163C3F4E006F576A /* Default-568h@2x.png in Resources */,
+				C4EA7AF5163C3F4E006F576A /* BFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EA7AD0163C3F4E006F576A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EA7AE5163C3F4E006F576A /* main.m in Sources */,
+				C4EA7AE9163C3F4E006F576A /* BFAppDelegate.m in Sources */,
+				C4EA7AF2163C3F4E006F576A /* BFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4EA7AE1163C3F4E006F576A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EA7AE2163C3F4E006F576A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4EA7AF3163C3F4E006F576A /* BFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EA7AF4163C3F4E006F576A /* en */,
+			);
+			name = BFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EA7AF6163C3F4E006F576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4EA7AF7163C3F4E006F576A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EA7AF9163C3F4E006F576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objectiveC Tutorial3/objectiveC Tutorial3-Prefix.pch";
+				INFOPLIST_FILE = "objectiveC Tutorial3/objectiveC Tutorial3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4EA7AFA163C3F4E006F576A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objectiveC Tutorial3/objectiveC Tutorial3-Prefix.pch";
+				INFOPLIST_FILE = "objectiveC Tutorial3/objectiveC Tutorial3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EA7ACE163C3F4E006F576A /* Build configuration list for PBXProject "objectiveC Tutorial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA7AF6163C3F4E006F576A /* Debug */,
+				C4EA7AF7163C3F4E006F576A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EA7AF8163C3F4E006F576A /* Build configuration list for PBXNativeTarget "objectiveC Tutorial3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA7AF9163C3F4E006F576A /* Debug */,
+				C4EA7AFA163C3F4E006F576A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EA7ACB163C3F4E006F576A /* Project object */;
+}
