@@ -10,4 +10,8 @@
 
 @interface BFViewController : UIViewController
 
+@property NSMutableArray *numbers;
+
+-(void)createArray;
+
 @end
